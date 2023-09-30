@@ -18,34 +18,30 @@
             android:layout_weight="1"
             android:background="#FFFFFF"
             android:scaleType="centerInside"
-            app:srcCompat="@drawable/index"
+            app:srcCompat="@drawable/b"
             tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck"
             tools:src="@drawable/index" />
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:orientation="vertical"
+           android:gravity="center"
+            android:layout_gravity="center_vertical"
+            >
 
-            <TextView
-                android:id="@+id/textView2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:minHeight="48dp"
-                android:text="Current Date and Time"
-                android:textAlignment="center"
-                android:textSize="20sp"
-                android:textStyle="bold" />
+
 
             <TextView
                 android:id="@+id/textView1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal|center_vertical"
-                android:text="InternSavy Internship Task"
+                android:text="BHARAT Internship Task"
                 android:textAlignment="center"
                 android:textColor="#673AB7"
                 android:textSize="20sp"
+                android:gravity="center"
                 android:textStyle="bold" />
         </LinearLayout>
 
@@ -80,7 +76,8 @@
 
             <androidx.gridlayout.widget.GridLayout
                 android:layout_width="match_parent"
-                android:layout_height="94dp">
+                android:layout_height="94dp"
+                tools:ignore="MissingClass">
 
                 <Button
                     android:id="@+id/divide"
